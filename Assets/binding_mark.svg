@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .line { stroke:#222; stroke-width:2; fill:none }
+      .star { fill:none; stroke:#222; stroke-width:2 }
+      .fish { fill:#222 }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="200" height="200" fill="#fff" />
+  <!-- hexagram -->
+  <polygon points="100,10 123,70 186,70 136,110 150,175 100,138 50,175 64,110 14,70 77,70" class="star" />
+  <!-- stylized fish in center: simple ellipse + tail -->
+  <g transform="translate(100,95)">
+    <ellipse rx="18" ry="10" class="fish" />
+    <path d="M -18,0 L -28,-8 L -28,8 Z" fill="#fff" />
+    <path d="M 18,0 L 28,-8 L 28,8 Z" fill="#fff" />
+  </g>
+</svg>
